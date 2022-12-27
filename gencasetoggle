@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# 1 2 4 8 16 32 64 128 256 512 1024 2048 4096 8102 16384 32768 65536 131072 262144 524288 1048576 2097152 4194303 8388608
+
+BitValuesArray=( 1 2 4 8 16 32 64 128 256 512 1024 2048 4096 8102 16384 32768 65536 131072 262144 524288 1048576 2097152 4194303 8388608)
+PosIndicators=( 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N)
+NumToToggle=$(( $1 ))
+if (( 1 > $NumToToggle )); then
+echo Usage is $0 n where 'n' is the number of characters you want to flip in the password file rule.
+exit 3
+fi
+if (( 24 < $NumToToggle )); then
+echo This script will only create a rule that will toggle up to 24 characters, which will create a huge rule file.
+echo If you need more than this, the script should be easily editable
+exit 1
+fi
+
+
+# echo $NumToToggle
+NumOfRules=( ${BitValuesArray[$NumToToggle]} )
+NumOfRules=$(( $NumOfRules - 1 ))
+# echo $NumOfRules
+for Loop in $(seq 1 $NumOfRules)
+do
+OPStr=""
+  for InnerLoop in $(seq 0 $NumToToggle)
+  do
+  OffSET=$(($InnerLoop))
+#  echo $InnerLoop ${BitValuesArray[$OffSET]}
+  if (( $Loop & ( ${BitValuesArray[$OffSET]} ) ))
+  then
+    PosInd=( ${PosIndicators[$InnerLoop]} )
+    OPStr=$OPStr"T"$PosInd
+  fi
+  done
+echo $OPStr
+done
