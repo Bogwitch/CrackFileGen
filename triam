@@ -1,0 +1,26 @@
+#!/bin/bash
+
+for n in 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] \[\]\\ asd sdf dfg fgh ghj hjk jkl kl\; l\;\' zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\@\# \@\#\$ \#\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ KL\: L\:\" NM\< M\<\> \<\>\?
+do
+for m in 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] \[\]\\ asd sdf dfg fgh ghj hjk jkl kl\; l\;\' zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\@\# \@\#\$ \#\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ KL\: L\:\" NM\< M\<\> \<\>\?
+# 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] asd sdf dfg fgh ghj hjk jkl kl\; l\;\' \;\'\# \\zx zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\"\£ \"\£\$ \£\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ OP\{ P\{\} KL\: L\:\@ \:\@\~ NM\< M\<\> \<\>\?
+do
+for o in 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] \[\]\\ asd sdf dfg fgh ghj hjk jkl kl\; l\;\' zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\@\# \@\#\$ \#\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ KL\: L\:\" NM\< M\<\> \<\>\?
+# 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] asd sdf dfg fgh ghj hjk jkl kl\; l\;\' \;\'\# \\zx zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\"\£ \"\£\$ \£\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ OP\{ P\{\} KL\: L\:\@ \:\@\~ NM\< M\<\> \<\>\?
+do
+for p in 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] \[\]\\ asd sdf dfg fgh ghj hjk jkl kl\; l\;\' zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\@\# \@\#\$ \#\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ KL\: L\:\" NM\< M\<\> \<\>\?
+# 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] asd sdf dfg fgh ghj hjk jkl kl\; l\;\' \;\'\# \\zx zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\"\£ \"\£\$ \£\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ OP\{ P\{\} KL\: L\:\@ \:\@\~ NM\< M\<\> \<\>\?
+do
+for q in 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] \[\]\\ asd sdf dfg fgh ghj hjk jkl kl\; l\;\' zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\@\# \@\#\$ \#\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ KL\: L\:\" NM\< M\<\> \<\>\?
+# 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] asd sdf dfg fgh ghj hjk jkl kl\; l\;\' \;\'\# \\zx zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\"\£ \"\£\$ \£\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ OP\{ P\{\} KL\: L\:\@ \:\@\~ NM\< M\<\> \<\>\?
+do
+echo $n$m$o$p$q
+done
+done
+done
+done
+done
+
+
+# \!\"\£ \"\£\$ \£\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ OP\{ P\{\} KL\: L\:\@ \:\@\~ NM\< M\<\> \<\>\?
+# 123 234 345 456 567 678 789 890 90\- 0\-\= qwe wer ert rty tyu yui uio iop op\[ p\[\] \[\]\\ asd sdf dfg fgh ghj hjk jkl kl\; l\;\' zxc xcv cvb vbn bnm nm\, m\,\. \,\.\/ \!\@\# \@\#\$ \#\$\% \$\%\^ \%\^\& \^\&\* \&\*\( \*\(\) \(\)\_ \)\_\+ KL\: L\:\" NM\< M\<\> \<\>\?
